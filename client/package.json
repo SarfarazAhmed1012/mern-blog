@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@greatsumini/react-facebook-login": "^3.3.3",
+    "facebook-login": "^1.4.1",
     "flowbite-react": "^0.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-facebook": "^9.0.12",
     "react-router-dom": "^6.21.3"
   },
   "devDependencies": {

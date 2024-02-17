@@ -3,6 +3,7 @@ import { Button, Navbar, TextInput } from "flowbite-react";
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaMoon } from "react-icons/fa";
+import FacebookButton from "./FacebookButton";
 const Header = () => {
   const path = useLocation().pathname;
   console.log(path);
@@ -39,6 +40,7 @@ const Header = () => {
         </Link>
         <Navbar.Toggle />
       </div>
+      <div>{/* <FacebookButton /> */}</div>
       <Navbar.Collapse>
         <Navbar.Link as={"div"} active={path === "/"}>
           <Link to="/">Home</Link>
