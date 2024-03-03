@@ -18,7 +18,7 @@ const Dashboard = () => {
         <DashSidebar />
       </div>
       {/* profile */}
-      <div>{tab === "profile" && <DashProfile />}</div>
+      <div className="w-full">{tab === "profile" && <DashProfile />}</div>
     </div>
   );
 };
